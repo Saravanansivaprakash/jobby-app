@@ -1,0 +1,78 @@
+.login-container {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.username-label {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.username-input-el {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 5px;
+  color: #f8fafc;
+}
+
+.password-label {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.password-input-el {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 5px;
+  color: #f8fafc;
+}
+
+.btn-login {
+  cursor: pointer;
+  outline: none;
+  border-style: none;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  color: #f8fafc;
+  align-self: stretch;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.err-msg {
+  color: #ff0b37;
+  font-size: 11px;
+  align-self: flex-start;
+}
